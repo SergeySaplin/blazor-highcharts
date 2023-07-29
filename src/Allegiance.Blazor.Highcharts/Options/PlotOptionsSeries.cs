@@ -24,6 +24,8 @@ namespace Allegiance.Blazor.Highcharts.Core.Options
         public string LineColor { get; set; }
         [JsonProperty("animation", NullValueHandling = NullValueHandling.Ignore)]
         public Animation Animation { get; set; }
+        [JsonProperty("turboThreshold", NullValueHandling = NullValueHandling.Ignore)]
+        public int? TurboThreshold { get; set; }
 
 
 
